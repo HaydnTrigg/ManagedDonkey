@@ -229,6 +229,10 @@ public:
 	static void __cdecl get_player_render_camera_orientation(real_matrix4x3* camera);
 	void __thiscall queue_patchy_fog();
 	void __thiscall render_();
+	void __thiscall renderA_();
+	void __thiscall renderB_();
+	void __thiscall renderC_();
+	void __thiscall renderD_();
 	bool __thiscall render_albedo();
 	static void __cdecl render_albedo_decals(bool a1, bool a2);
 	void __thiscall render_effects(e_effect_pass pass);
